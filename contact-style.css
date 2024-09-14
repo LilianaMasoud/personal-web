@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* General body styling */
+body {
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #b6e3f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #094d63;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #c2e6f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section styling */
+#contact h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+/* Contact methods layout */
+.contact-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    
+}
+
+.contact-method a {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    color: #0073e6;
+}
+
+.ending-thanks {
+    display: flex;
+    justify-content: space-between;  /* Space between the elements (images and text) */
+    align-items: center;
+    margin-top: 40px;
+    max-width: 700px; /* Restrict the width to control spacing */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ending-thanks h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.ending-image {
+    width: 120px;  /* Adjust the image size to match your visual */
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}

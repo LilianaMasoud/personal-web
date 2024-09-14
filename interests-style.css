@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* General body styling */
+body {
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #b6e3f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #094d63;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto; /* Center content */
+    background-color: #c2e6f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Interests section styling */
+
+/* Flexbox to align heading and images */
+.heading-with-images {
+    display: flex;
+    justify-content: center; /* Center the heading and images horizontally */
+    align-items: center;     /* Vertically align the images with the heading */
+    margin-bottom: 30px;
+}
+
+/* Style the small images */
+.small-image {
+    width: 50px;   /* Adjust the size as needed */
+    height: 50px;
+    margin: 20px;  /* Add some space between the image and the heading */
+}
+
+#interests h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+#interests h3 {
+    font-size: 1.8em;
+    margin-top: 40px;
+    text-align: left;
+}
+
+/* Paragraphs and images alignment */
+#interests p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Thrifting section: Image to the left */
+#interests .thrifting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#interests .thrifting img {
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* PC Building section: Image to the right */
+#interests .pc-building {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-direction: row-reverse;
+}
+
+#interests .pc-building img {
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaming: No image beside, only text */
+#interests .gaming {
+    margin-bottom: 40px;
+}
+
+/* Cats section: Image below paragraph */
+#interests .cats img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
