@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Style the body and the general layout */
+
 body {
     font-family: "Indie Flower", cursive;
     font-weight: 700;
@@ -14,7 +14,7 @@ body {
     background-color: #b6e3f2;
 }
 
-/* Navigation styling */
+
 header {
     background-color: #094d63;
     color: white;
@@ -41,28 +41,28 @@ nav ul li a:hover {
     color: #ddd;
 }
 
-/* Main content area */
+
 main {
     max-width: 800px;
-    margin: 0 auto; /* Center content */
+    margin: 0 auto;
     padding: 20px;
     background-color: #c2e6f2;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* About me section styling */
+
 #about-me {
     margin-bottom: 30px;
 }
 
-/* Style the heading and image */
+
 .heading-container {
     text-align: center;
 }
 
 .heading-container h1 {
-    font-size: 3em; /* Larger font size for the heading */
+    font-size: 3em;
     color: #094d63;
     margin-bottom: 10px;
 }
@@ -70,10 +70,10 @@ main {
 .heading-container img {
     display: block;
     margin: 0 auto;
-    margin-top: 10px; /* Ensure the image is directly below the heading */
+    margin-top: 10px; 
 }
 
-/* "a little about me" section */
+
 #about-me h2 {
     text-align: center;
     font-family: "Indie Flower", cursive;
@@ -81,28 +81,28 @@ main {
     font-style: normal;
 }
 
-/* Style the profile image */
+
 .profile-image {
     width: 200px;
-    float: right; /* Float the image to the right of the paragraph */
+    float: right; 
     margin-left: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Introduction paragraph */
+
 #about-me p {
     font-size: 1.1em;
     color: #094d63;
     text-align: justify;
 }
 
-/* Style for additional images */
+
 #additional-images {
     text-align: center;
-    display: flex; /* Use flexbox to align images side-by-side */
-    justify-content: space-around; /* Evenly distribute images */
+    display: flex; 
+    justify-content: space-around; 
     margin-top: 10px;
 }
 
