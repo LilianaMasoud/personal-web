@@ -126,3 +126,65 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px; 
+    }
+
+    nav ul li {
+        display: block; 
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+
+    main {
+        max-width: 100%; 
+        padding: 15px;
+    }
+
+    .heading-with-images {
+        flex-direction: column; 
+    }
+
+    #interests h1 {
+        font-size: 2em; 
+    }
+
+    .small-image {
+        width: 40px; 
+        height: 40px;
+    }
+
+    #interests .thrifting img,
+    #interests .pc-building img,
+    #interests .cats img {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    #interests .thrifting,
+    #interests .pc-building {
+        flex-direction: column; 
+    }
+
+    #interests .pc-building {
+        flex-direction: column-reverse; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    #interests h1 {
+        font-size: 1.5em; 
+    }
+
+    #interests p {
+        font-size: 1em; 
+    }
+
+    .small-image {
+        width: 30px; 
+        height: 30px;
+    }
+}
